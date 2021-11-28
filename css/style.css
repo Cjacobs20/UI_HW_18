@@ -172,7 +172,7 @@
   left: 100px;
   top: 100px;
   }
-  .left {
+  .leftProject {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -184,7 +184,7 @@
   left: 0px;
   top: 0px;
   }
-  .right {
+  .rightProject {
     display: flex;
     width: 50%;
     height: auto;
