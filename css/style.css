@@ -43,41 +43,61 @@
     height: 583px;
     left: 0px;
     top: 93px;
-    
-    background: linear-gradient(200.68deg, #201B19 3.23%, #201B19 51.14%, #BEAE9C 64.78%);
-    
+    background: linear-gradient(190.68deg, #201B19 3.23%, #201B19 51.14%, #BEAE9C 64.78%);
+  }
+  .heroImg img {
+    max-width: 100%;
+    height: auto;
   }
   .heroImg h1 {
-    font-family: Libre Baskerville;
+    font-family: 'Libre Baskerville', serif;
     font-style: normal;
     font-weight: normal;
     font-size: 60px;
     line-height: 74px;
-    
+    padding-left: 20px;
     color: #76C1B8;
-    
+  }
+
+  .aboutIntro {
+    display: flex;
+    background-color: #BEAE9C;
   }
   h1 {
       display: flex;
-    font-family: Libre Baskerville;
+    font-family: 'Libre Baskerville', serif;
     justify-content: center;
     align-items: start;
     font-style: normal;
     font-weight: normal;
-    font-size: 60px;
+    font-size: 44px;
     line-height: 74px;
     color: #76C1B8;
   }
-  h4 {
+  .aboutContainer {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: row;
+    padding: 40px;
+  }
+  .aboutContainer img{
+    max-width: 100%;
+    display: flex;
+    scale: 60%;
+    height: auto;
+  } 
+  .aboutContainer h4 {
     display: flex;
     justify-content: center;
     font-family: 'prata', serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 44px;
+    font-size: 24px;
     line-height: 60px;
-    color: #BFAE9D;
-    align-items: baseline;
+    color: #201B19;
+    align-items: center;
+    padding: 40px;
 
   }
   .content {
@@ -95,5 +115,77 @@
       justify-content: space-evenly;
       align-items: row;
   }
+  h6 {
+    font-family: 'prata', serif;
+    font-size: 24px;
+    text-decoration: underline;
+    display: flex;
+    background-color: #BEAE9C;
+    height: auto;
+    padding-left: 20px; 
+  }
+  .moreAbout {
+    display: flex;
+    background-color: #BEAE9C;
+    font-family: 'prata', serif;
+    text-decoration: underline;
+    font-size: 44px;
+    justify-content: right;
+    height: auto;
+    padding-right: 20px;
+  }
 
- 
+  }
+  h4 {
+    display: flex;
+    font-family: 'prata', serif;
+    font-size: 24px;
+    justify-content: center;
+    color: #BEAE9C;
+  }
+  .myWork {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+
+    position: static;
+    width: 100%;
+    height: auto;
+    left: 0px;
+    top: 1910px;
+
+    background: linear-gradient(196.65deg, #BEAE9C 35.26%, #BEAE9C 66.95%, #201B19 75.82%);
+  }
+  
+  .projectBox {
+    display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+
+  position: static;
+  width: 100%;
+  height: auto;
+  left: 100px;
+  top: 100px;
+  }
+  .left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+
+  position: static;
+  width: 100%;
+  height: auto;
+  left: 0px;
+  top: 0px;
+  }
+  .right {
+    display: flex;
+    width: 50%;
+    height: auto;
+  }
