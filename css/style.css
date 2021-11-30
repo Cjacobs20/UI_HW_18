@@ -43,7 +43,7 @@
     height: 583px;
     left: 0px;
     top: 93px;
-    background: linear-gradient(190.68deg, #201B19 3.23%, #201B19 51.14%, #BEAE9C 64.78%);
+    background: linear-gradient(180deg, #201B19 3.23%, #201B19 51.14%, #BEAE9C 64.78%);
   }
   .heroImg img {
     max-width: 100%;
@@ -72,7 +72,7 @@
     font-weight: normal;
     font-size: 44px;
     line-height: 74px;
-    color: #76C1B8;
+    color: #201B19;
   }
   .aboutContainer {
     display: flex;
@@ -106,7 +106,7 @@
   footer {
       display: inline-block;
       justify-content: center;
-      background-color: #201B19;
+      background: linear-gradient(180deg, #BEAE9C 35.26%, #BEAE9C 66.95%, #201B19 75.82%);
       width: 100%;
   }
   .footLogo {
@@ -156,7 +156,7 @@
     left: 0px;
     top: 1910px;
 
-    background: linear-gradient(196.65deg, #BEAE9C 35.26%, #BEAE9C 66.95%, #201B19 75.82%);
+    background: #BEAE9C;
   }
   
   .projectBox {
@@ -192,4 +192,16 @@
     max-width: 400px;
     display: flex;
     height: auto;
+    padding-right: 20px;
+  }
+
+  .leftProject h1 {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 64px;
+    color: #201B19;
+  }
+  .leftProject h5 {
+    font-family: 'prata', serif;
+    font-size: 32px;
+    color: #201B19;
   }
