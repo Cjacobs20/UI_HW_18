@@ -116,6 +116,7 @@
       align-items: row;
   }
   h6 {
+    margin: 0;
     font-family: 'prata', serif;
     font-size: 24px;
     text-decoration: underline;
@@ -133,9 +134,9 @@
     justify-content: right;
     height: auto;
     padding-right: 20px;
+    margin: 0;
   }
 
-  }
   h4 {
     display: flex;
     font-family: 'prata', serif;
@@ -148,8 +149,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 100px;
-
+    
     position: static;
     width: 100%;
     height: auto;
@@ -164,7 +164,7 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 0px;
+  padding: 20px;
 
   position: static;
   width: 100%;
@@ -172,20 +172,24 @@
   left: 100px;
   top: 100px;
   }
-  .leftProject {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 0px;
-
-  position: static;
-  width: 100%;
-  height: auto;
-  left: 0px;
-  top: 0px;
-  }
-  .rightProject {
+ 
+  h3 {
+    margin: 0;
     display: flex;
-    width: 50%;
+    font-family: 'prata', serif;
+    font-size: 60px;
+    color: #201B19;
+    background-color: #BEAE9C;
+    justify-content: center;
+  }
+
+  .leftProject {
+    padding: 20px;
+
+  }
+
+  .rightProject img{
+    max-width: 400px;
+    display: flex;
     height: auto;
   }
