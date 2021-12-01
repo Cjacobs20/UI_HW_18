@@ -205,3 +205,25 @@
     font-size: 32px;
     color: #201B19;
   }
+#projectBoxmid {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+
+  position: static;
+  width: 100%;
+  height: auto;
+  left: 100px;
+  top: 100px;
+}
+
+  @media only screen and (max-width: 600){
+    .projectBox{
+      flex-direction: column;
+    }
+    #projectBoxmid{
+      flex-direction: column;
+    }
+  }
