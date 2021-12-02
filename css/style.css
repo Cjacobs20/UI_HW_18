@@ -57,6 +57,7 @@
     line-height: 74px;
     padding-left: 20px;
     color: #76C1B8;
+    padding-bottom: 80px;
   }
 
   .aboutIntro {
@@ -82,7 +83,7 @@
     padding: 40px;
   }
   .aboutContainer img{
-    max-width: 100%;
+    max-width: 400px;
     display: flex;
     scale: 60%;
     height: auto;
@@ -101,7 +102,7 @@
 
   }
   .content {
-      padding: 40px;
+      padding: 40px;   
   }
   footer {
       display: inline-block;
